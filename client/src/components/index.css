@@ -1,0 +1,25 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'Product Sans';
+}
+
+input.flow-input {
+  border-bottom: 1px solid white!important;
+}
+
+input.flow-input + label {
+  color: white!important;
+}
+
+input.flow-input:focus {
+  border-bottom: 1px solid #ffeb3b!important;
+}
+
+input.flow-input:focus + label {
+  color: #ffeb3b!important;
+}
